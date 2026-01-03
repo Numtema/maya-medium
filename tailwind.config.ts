@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-poppins)", "sans-serif"],
+        serif: ["var(--font-playfair)", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -46,12 +47,15 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        "green-fluo": "#00FF7F",
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        DEFAULT: "1rem",
+        lg: "1.5rem",
+        md: "1rem",
+        sm: "calc(1rem - 4px)",
+        xl: "2rem",
+        "2xl": "2.5rem",
+        "3xl": "3rem",
       },
       keyframes: {
         "accordion-down": {

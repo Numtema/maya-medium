@@ -1,11 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
 import "./globals.css"
-import { poppins } from "./fonts"
+import { playfair, poppins } from "./fonts"
 
 export const metadata: Metadata = {
-  title: "Revis ton enfance - Dessins animés et séries des années 90",
-  description: "Plus de 300 séries d'animation des années 90 disponibles en intégralité et en français",
+  title: "Maya Medium - Voyance & Guidance Spirituelle | Stéphanie",
+  description:
+    "Consultations de voyance par téléphone et WhatsApp avec Maya Medium (Stéphanie). Guidance spirituelle, messages des défunts, et accompagnement bienveillant dans la confidentialité.",
   generator: "Next.js",
 }
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={`${poppins.variable} font-sans`}>{children}</body>
+      <body className={`${playfair.variable} ${poppins.variable} font-sans`}>{children}</body>
     </html>
   )
 }

@@ -4,55 +4,61 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
-    --radius: 0.5rem;
+    /* Updated colors to match HTML templates: primary gold #C9A24D, dark black #0F0F0F, cream #F4EFEA */
+    --background: 240 10% 7%;
+    --foreground: 45 15% 94%;
+    --card: 240 10% 10%;
+    --card-foreground: 45 15% 94%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 45 15% 94%;
+    --primary: 43 51% 54%; /* #C9A24D gold */
+    --primary-foreground: 240 10% 7%;
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 45 15% 94%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 45 8% 65%;
+    --accent: 43 51% 54%;
+    --accent-foreground: 240 10% 7%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 45 15% 94%;
+    --border: 43 51% 54% / 0.2;
+    --input: 43 51% 54% / 0.2;
+    --ring: 43 51% 54%;
+    --radius: 1rem;
+    --primary-gold: #c9a24d;
+    --dark-bg: #0f0f0f;
+    --cream: #f4efea;
+    --warm-gray: #8e8a85;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    /* Dark mode with black, white, and gold */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 51%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 43 96% 56%;
+    --accent-foreground: 0 0% 0%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.5% 48%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 45 100% 51%;
   }
 }
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 245, 245, 245;
   --items: 6;
   --carousel-duration: 40s;
   --carousel-item-width: 280px;
@@ -67,9 +73,86 @@
   }
 }
 
+/* Updated body background to dark with gold accents */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: #0f0f0f;
+  color: #f4efea;
+  font-family: var(--font-sans);
+}
+
+/* Glass panel effects from HTML templates */
+.glass-panel {
+  background: rgba(15, 15, 15, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(201, 162, 77, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-card {
+  background: rgba(244, 239, 234, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(201, 162, 77, 0.2);
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(244, 239, 234, 0.08);
+  border-color: rgba(201, 162, 77, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px 0 rgba(201, 162, 77, 0.15);
+}
+
+/* Text glow effect for mystical feel */
+.text-glow {
+  text-shadow: 0 0 30px rgba(201, 162, 77, 0.2);
+}
+
+/* Button glow effects matching HTML templates */
+.btn-glow {
+  box-shadow: 0 0 20px rgba(201, 162, 77, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 30px rgba(201, 162, 77, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Custom scrollbar with gold accent */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a24d;
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mystical gradient background */
+.mystical-gradient {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+  position: relative;
+}
+
+.mystical-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(201, 162, 77, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(212, 185, 96, 0.1) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 /* Mode sombre */
@@ -94,37 +177,154 @@ body {
   color: #a0a0a0;
 }
 
-/* Style spécial pour le bouton WhatsApp */
-.whatsapp-button {
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  padding-block: 0.5rem;
-  padding-inline: 1.25rem;
-  background-color: rgb(0 107 179);
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffff;
-  gap: 10px;
-  font-weight: bold;
-  border: 3px solid #ffffff4d;
-  outline: none;
-  overflow: hidden;
-  font-size: 15px;
-  cursor: pointer;
+/* Updated gold utilities matching template colors */
+.text-gold {
+  color: #c9a24d;
 }
 
-.whatsapp-button .icon {
-  width: 24px;
-  height: 24px;
-  transition: all 0.3s ease-in-out;
+.bg-gold {
+  background-color: #c9a24d;
+}
+
+.border-gold {
+  border-color: #c9a24d;
+}
+
+.text-cream {
+  color: #f4efea;
+}
+
+.bg-cream {
+  background-color: #f4efea;
+}
+
+.text-dark {
+  color: #0f0f0f;
+}
+
+.bg-dark {
+  background-color: #0f0f0f;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #c9a24d 0%, #d4b960 100%);
+}
+
+/* Service card styles */
+.service-card {
+  background: rgba(244, 239, 234, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(201, 162, 77, 0.3);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(201, 162, 77, 0.6);
+  box-shadow: 0 20px 40px rgba(201, 162, 77, 0.2);
+}
+
+/* Enhanced service card styling with better animations */
+.service-card-enhanced {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 239, 234, 0.95) 100%);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(201, 162, 77, 0.2);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card-enhanced::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(201, 162, 77, 0.1), transparent);
+  transition: left 0.7s ease;
+}
+
+.service-card-enhanced:hover::before {
+  left: 100%;
+}
+
+.service-card-enhanced:hover {
+  transform: translateY(-12px);
+  border-color: rgba(201, 162, 77, 0.6);
+  box-shadow: 0 20px 60px rgba(201, 162, 77, 0.3), 0 0 40px rgba(201, 162, 77, 0.1);
+}
+
+/* Fade in animation for service cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* WhatsApp and phone button styling with gold theme */
+.whatsapp-button {
+  background: linear-gradient(135deg, #c9a24d 0%, #d4b960 100%);
+  color: #0f0f0f;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(201, 162, 77, 0.3);
+  position: relative;
+  overflow: hidden;
 }
 
 .whatsapp-button:hover {
   transform: scale(1.05);
-  border-color: #fff9;
+  box-shadow: 0 6px 30px rgba(201, 162, 77, 0.5);
+}
+
+.phone-button {
+  background: rgba(15, 15, 15, 0.8);
+  color: #c9a24d;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  border: 2px solid #c9a24d;
+}
+
+.phone-button:hover {
+  background: #c9a24d;
+  color: #0f0f0f;
+  transform: scale(1.05);
+}
+
+.whatsapp-button .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.phone-button:hover {
+  background: #d4af37;
+  color: #000000;
+  transform: scale(1.05);
 }
 
 .whatsapp-button:hover .icon {
@@ -165,7 +365,33 @@ body {
   }
 }
 
+/* Floating bubble animations from HTML templates */
+.floating-bubble {
+  position: absolute;
+  background: radial-gradient(circle, rgba(201, 162, 77, 0.2), transparent);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float-bubble var(--duration, 15s) ease-in-out infinite;
+}
+
+@keyframes float-bubble {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(var(--x, 50px), var(--y, -50px)) scale(1.1);
+  }
+  50% {
+    transform: translate(calc(var(--x, 50px) * -0.5), var(--y, -50px)) scale(0.9);
+  }
+  75% {
+    transform: translate(var(--x, 50px), calc(var(--y, -50px) * -0.5)) scale(1.05);
+  }
+}
+
 /* Animation des bulles flottantes */
+/*
 .floating-bubble {
   position: absolute;
   border-radius: 50%;
@@ -184,6 +410,7 @@ body {
     transform: translate(var(--x), var(--y));
   }
 }
+*/
 
 /* Carousel Styles */
 .carousel-container {
@@ -314,21 +541,38 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Animation pour le carrousel 3D */
+/* Float animation */
 @keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+  0%,
   100% {
     transform: translateY(0px);
   }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
-.float {
+.animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
 }
 
 @keyframes marquee {
@@ -476,6 +720,43 @@ nav a:not(.whatsapp-button):hover::after {
   }
 }
 
+/* Shimmer effect for gold elements */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #c9a24d 0%, #f4d03f 50%, #c9a24d 100%);
+  background-size: 1000px 100%;
+  animation: shimmer 3s infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mystical glow effect */
+.mystical-glow {
+  box-shadow: 0 0 20px rgba(201, 162, 77, 0.3), 0 0 40px rgba(201, 162, 77, 0.2), inset 0 0 20px rgba(201, 162, 77, 0.1);
+}
+
+/* FAQ accordion styles */
+.faq-item {
+  border: 1px solid rgba(201, 162, 77, 0.2);
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(201, 162, 77, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+}
+
 /* Styles responsifs pour mobile */
 @media (max-width: 768px) {
   .mobile-menu-closed {
@@ -524,6 +805,13 @@ nav a:not(.whatsapp-button):hover::after {
   .carousel > article {
     width: 220px;
     height: 350px;
+  }
+
+  /* Responsive adjustments */
+  .whatsapp-button,
+  .phone-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
   }
 }
 
