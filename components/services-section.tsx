@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { Sparkles, Moon, Eye, Hand } from "lucide-react"
-import { useEffect, useRef } from "react"
 
 export function ServicesSection() {
   const services = [
@@ -32,28 +31,8 @@ export function ServicesSection() {
     },
   ]
 
-  const sectionRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate-fade-in")
-          }
-        })
-      },
-      { threshold: 0.1 },
-    )
-
-    const cards = sectionRef.current?.querySelectorAll(".service-card")
-    cards?.forEach((card) => observer.observe(card))
-
-    return () => observer.disconnect()
-  }, [])
-
   return (
-    <section className="py-24 px-4 md:px-8 bg-[#f4efea] relative overflow-hidden" id="services" ref={sectionRef}>
+    <section className="py-24 px-4 md:px-8 bg-[#f4efea] relative overflow-hidden" id="services">
       <div className="absolute top-10 left-10 w-32 h-32 bg-[#c9a24d]/10 rounded-full blur-3xl animate-pulse-glow" />
       <div
         className="absolute bottom-20 right-10 w-40 h-40 bg-[#c9a24d]/10 rounded-full blur-3xl animate-pulse-glow"
@@ -72,10 +51,9 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={service.id}
-              className="service-card-enhanced group opacity-0 translate-y-10"
+              className="service-card-enhanced group"
               style={{
                 animationDelay: `${index * 200}ms`,
-                transitionDelay: `${index * 100}ms`,
               }}
             >
               <div className="relative mb-6 flex justify-center">

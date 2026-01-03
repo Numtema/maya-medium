@@ -236,6 +236,9 @@ html {
   box-shadow: 0 10px 30px rgba(15, 15, 15, 0.1);
   position: relative;
   overflow: hidden;
+  /* Removed opacity-0 to make cards visible by default */
+  opacity: 1;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 .service-card-enhanced::before {

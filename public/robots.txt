@@ -1,0 +1,21 @@
+# Robots.txt for Maya Medium - Voyance et Guidance Spirituelle
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.maya-medium.com/sitemap.xml
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /admin/
+
+# Allow all crawlers to index the main pages
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /faq
+Allow: /contact
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
