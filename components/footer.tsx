@@ -58,27 +58,27 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-[#c9a24d] font-serif">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#accueil" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
+                <Link href="/#accueil" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
                   Accueil
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
+                <Link href="/#services" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
+                <Link href="/#about" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
                   À propos
                 </Link>
               </li>
               <li>
-                <Link href="#faq" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
+                <Link href="/#faq" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
+                <Link href="/#contact" className="text-[#f4efea]/70 hover:text-[#c9a24d] font-sans transition-colors">
                   Contact
                 </Link>
               </li>
@@ -122,6 +122,20 @@ export function Footer() {
             <p className="text-[#f4efea]/60 text-sm font-sans">
               &copy; {new Date().getFullYear()} Maya Medium. Tous droits réservés.
             </p>
+            <div className="flex gap-4 text-xs">
+              <Link href="/mentions-legales" className="text-[#f4efea]/60 hover:text-[#c9a24d] transition-colors">
+                Mentions Légales
+              </Link>
+              <Link
+                href="/politique-confidentialite"
+                className="text-[#f4efea]/60 hover:text-[#c9a24d] transition-colors"
+              >
+                Politique de Confidentialité
+              </Link>
+              <Link href="/conditions-generales" className="text-[#f4efea]/60 hover:text-[#c9a24d] transition-colors">
+                CGV
+              </Link>
+            </div>
             <p className="text-[#f4efea]/50 text-xs font-sans text-center max-w-2xl">
               Disclaimer : La voyance est un art divinatoire qui ne se substitue pas à un avis médical, juridique ou
               financier professionnel. Les consultations sont données à titre indicatif.
