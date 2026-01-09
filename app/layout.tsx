@@ -61,23 +61,13 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/images/image.png",
-    shortcut: "/images/image.png",
-    apple: "/images/image.png",
-    other: [
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        url: "/images/image.png",
-      },
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
-        url: "/images/image.png",
-      },
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.ico", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "16x16", type: "image/png" },
     ],
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/apple-touch-icon.jpg", sizes: "180x180", type: "image/png" }],
   },
     generator: 'v0.app'
 }
