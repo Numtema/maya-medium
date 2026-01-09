@@ -1,4 +1,5 @@
-# Robots.txt for Maya Medium - Voyance et Guidance Spirituelle
+# Robots.txt pour Maya Medium - Voyance et Guidance Spirituelle
+# Saint-Romain-de-Colbosc, Seine-Maritime (76)
 
 User-agent: *
 Allow: /
@@ -6,16 +7,30 @@ Allow: /
 # Sitemaps
 Sitemap: https://www.maya-medium.com/sitemap.xml
 
-# Disallow admin or private areas (if any)
+# Disallow private areas
 Disallow: /api/
 Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
 
-# Allow all crawlers to index the main pages
-Allow: /
-Allow: /services
-Allow: /about
-Allow: /faq
-Allow: /contact
+# Allow important pages for SEO
+Allow: /#services
+Allow: /#about
+Allow: /#faq
+Allow: /#contact
 
 # Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
 Crawl-delay: 1

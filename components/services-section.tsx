@@ -13,7 +13,7 @@ export function ServicesSection() {
         {
           title: "Messages des Défunts",
           icon: Moon,
-          image: "/images/crystal-ball.jpg",
+          image: "/images/messages-defunts-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
           description:
@@ -22,7 +22,7 @@ export function ServicesSection() {
         {
           title: "Lecture Akashique",
           icon: BookOpen,
-          image: "/images/akashic-records.jpg",
+          image: "/images/lecture-akashique-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
           description:
@@ -31,7 +31,7 @@ export function ServicesSection() {
         {
           title: "Passage d'Âme",
           icon: Sparkles,
-          image: "/images/soul-transition.jpg",
+          image: "/images/passage-ame-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux",
           description: "Accompagnement des âmes en transition pour faciliter leur passage vers la lumière.",
@@ -39,7 +39,7 @@ export function ServicesSection() {
         {
           title: "Réponse Question Précise",
           icon: Eye,
-          image: "/images/precise-answer.jpg",
+          image: "/images/question-precise-pro.jpg",
           duration: "30 minutes",
           location: "Plusieurs lieux",
           description: "Une réponse claire et directe à une question précise qui vous préoccupe.",
@@ -47,7 +47,7 @@ export function ServicesSection() {
         {
           title: "Conférence Médiumnique",
           icon: Users,
-          image: "/images/conference.jpg",
+          image: "/images/conference-pro.jpg",
           duration: "210 minutes (3h30)",
           location: "En personne - Groupe",
           description: "Événement en groupe pour découvrir la médiumnité et recevoir des messages collectifs.",
@@ -62,7 +62,7 @@ export function ServicesSection() {
         {
           title: "Soin Énergétique",
           icon: Flame,
-          image: "/images/energy-healing.jpg",
+          image: "/images/soin-energetique-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
           description: "Harmonisation et rééquilibrage de vos énergies pour retrouver bien-être et sérénité.",
@@ -70,7 +70,7 @@ export function ServicesSection() {
         {
           title: "Dégagement Énergétique",
           icon: Sparkles,
-          image: "/images/energy-clearing.jpg",
+          image: "/images/degagement-energetique-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
           description: "Nettoyage énergétique profond pour libérer les blocages et retrouver votre vitalité.",
@@ -78,7 +78,7 @@ export function ServicesSection() {
         {
           title: "Lectures et Libérations",
           icon: BookOpen,
-          image: "/images/deep-reading.jpg",
+          image: "/images/lectures-liberations-pro.jpg",
           duration: "90 minutes",
           location: "Plusieurs lieux",
           description: "Séance approfondie combinant lecture énergétique et libération des mémoires limitantes.",
@@ -93,7 +93,7 @@ export function ServicesSection() {
         {
           title: "Cartomancie",
           icon: Hand,
-          image: "/images/tarot-cards.jpg",
+          image: "/images/cartomancie-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
           description:
@@ -102,7 +102,7 @@ export function ServicesSection() {
         {
           title: "Étude Photo - Décryptage Rêve",
           icon: Eye,
-          image: "/images/dream-interpretation.jpg",
+          image: "/images/decryptage-reve-pro.jpg",
           duration: "30 minutes",
           location: "Plusieurs lieux",
           description:
@@ -118,7 +118,7 @@ export function ServicesSection() {
         {
           title: "Communication Animale",
           icon: Footprints,
-          image: "/images/animal-communication.jpg",
+          image: "/images/communication-animale-pro.jpg",
           duration: "15 minutes",
           location: "Plusieurs lieux",
           description: "Je communique avec vos animaux de compagnie pour comprendre leurs besoins et leurs messages.",
@@ -133,7 +133,7 @@ export function ServicesSection() {
         {
           title: "Atelier en Groupe",
           icon: Users,
-          image: "/images/group-workshop.jpg",
+          image: "/images/atelier-groupe-pro.jpg",
           duration: "150 minutes (2h30)",
           location: "En personne - Groupe",
           description: "Ateliers collectifs pour développer votre intuition et découvrir vos capacités spirituelles.",
@@ -196,7 +196,7 @@ export function ServicesSection() {
                       alt={service.title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
-                      query={`mystical spiritual ${service.title.toLowerCase()} golden atmosphere`}
+                      // query={`professional mystical spiritual ${service.title.toLowerCase()} elegant golden candles crystals atmospheric soft lighting`}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f]/80 via-[#0f0f0f]/20 to-transparent" />
                   </div>

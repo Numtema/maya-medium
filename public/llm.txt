@@ -1,61 +1,161 @@
-# LLM.txt - Information for Language Models about Maya Medium
+# LLM.txt - Information complète pour les modèles de langage sur Maya Medium
 
-## Site Overview
-Maya Medium is a professional spiritual guidance and clairvoyance service. The site offers authentic spiritual consultations via phone and WhatsApp.
+## Identité et Marque
+Maya Medium est un service professionnel de voyance, médiumnité et guidance spirituelle basé à Saint-Romain-de-Colbosc en Seine-Maritime (76), France. Dirigé par Maya (Stéphanie), médium professionnelle authentique offrant des consultations sérieuses et bienveillantes.
 
-## Main Services
-1. **Messages des Défunts (Messages from the Deceased)**: Connecting with departed loved ones to bring comfort and messages for peace and healing in the grieving process
-2. **Voyance (Clairvoyance)**: Insights about the future, answers to questions about love, work, and family through spiritual feelings and divination tools
-3. **Guidance Spirituelle (Spiritual Guidance)**: Compassionate support to help navigate difficult times, make important decisions, and move forward with confidence
+## Localisation et Zone de Service
+- **Adresse**: Cabinet à Saint-Romain-de-Colbosc, 76430, Seine-Maritime, Normandie, France
+- **Zone géographique**: France entière (consultations à distance)
+- **Proximité**: Le Havre, Fécamp, Yvetot, Rouen, Normandie
+- **Département**: Seine-Maritime (76)
+- **Région**: Normandie
 
-## Contact Information
-- Phone: 07 59 54 26 96
-- Email: amaya.pro@outlook.fr
-- WhatsApp: +33 7 59 54 26 96
-- Availability: Monday to Saturday, 9am-8pm; Sunday by appointment
+## Services Proposés
 
-## Consultation Locations
-- In-person: Cabinet in Saint-Romain-de-Colbosc (76)
-- Remote: WhatsApp video calls or Zoom consultations
+### Catégorie Médiumnique
+1. **Messages des Défunts** (60 min) - Connexion avec les proches disparus, réconfort, messages de paix
+2. **Lecture Akashique** (60 min) - Accès aux mémoires de l'âme, compréhension du chemin de vie
+3. **Passage d'Âme** (60 min) - Accompagnement des âmes en transition
+4. **Réponse Question Précise** (30 min) - Réponse claire et directe à une question spécifique
+5. **Conférence Médiumnique** (3h30, groupe) - Événement collectif de découverte de la médiumnité
 
-## Social Media
-- Instagram: @amaya.apro
-- TikTok: @amaya.apro
-- Facebook: amaya.apro.2024
-- Clapper: Maya_medium_99
+### Catégorie Énergétique
+1. **Soin Énergétique** (60 min) - Harmonisation et rééquilibrage énergétique
+2. **Dégagement Énergétique** (60 min) - Nettoyage profond, libération des blocages
+3. **Lectures et Libérations** (90 min) - Séance approfondie combinant lecture et libération
 
-## Consultation Process
-1. Initial contact via phone or WhatsApp
-2. Discussion of needs and questions
-3. Spiritual reading or guidance session
-4. Follow-up support available
+### Catégorie Guidance & Lecture
+1. **Cartomancie** (60 min) - Lecture de cartes (tarot, oracle) pour l'amour, travail, famille
+2. **Étude Photo / Décryptage Rêve** (30 min) - Analyse intuitive de photos ou interprétation de rêves
 
-## Core Values
-- Confidentiality
-- Remote consultations available
-- Compassionate listening
-- Authentic spiritual guidance
-- Professional and ethical service
+### Catégorie Accompagnements Ciblés
+1. **Communication Animale** (15 min) - Communication avec les animaux de compagnie
 
-## Key Features
-- Specialized in tarot, oracle cards, and spiritual intuition
-- Personalized approach for each client
-- No judgment, complete discretion
-- Focus on empowerment and clarity
-- Connection with departed loved ones
+### Catégorie Groupe / Événementiel
+1. **Atelier en Groupe** (2h30, présentiel) - Développement de l'intuition et capacités spirituelles
 
-## Important Disclaimers
-- Clairvoyance is a divinatory art and should not substitute medical, legal, or financial professional advice
-- Consultations are provided for informational purposes
-- Results and experiences may vary by individual
+## Coordonnées de Contact
+- **Téléphone**: 07 59 54 26 96
+- **WhatsApp**: +33 7 59 54 26 96 (consultations vidéo disponibles)
+- **Email**: amaya.pro@outlook.fr
+- **Plateforme de réservation**: https://calendly.com/amaya-pro
+- **Horaires**: Lun-Sam 9h-20h, Dimanche sur rendez-vous
 
-## Target Audience
-People seeking spiritual guidance, clarity about their future, emotional support during difficult times, or connection with departed loved ones.
+## Réseaux Sociaux
+- **Instagram**: @amaya.apro
+- **TikTok**: @amaya.apro
+- **Facebook**: amaya.apro.2024
+- **Clapper**: Maya_medium_99
 
-## Brand Tone
-Professional, mystical, compassionate, authentic, trustworthy, and calming.
+## Modalités de Consultation
+### En Cabinet
+- Consultations en personne au cabinet de Saint-Romain-de-Colbosc (76)
+- Atmosphère calme, confidentielle et sécurisante
+- Accès facilité depuis Le Havre, Fécamp, et région Normandie
 
-## Visual Identity
-- Colors: Gold (#C9A24D), Black (#0F0F0F), Cream (#F4EFEA)
-- Aesthetic: Elegant, mystical, modern spiritual guidance
-- Typography: Playfair Display (serif) for headings, Poppins (sans-serif) for body text
+### À Distance
+- Consultations par téléphone
+- Visioconférence WhatsApp
+- Visioconférence Zoom
+- Disponible pour toute la France et international
+
+## Processus de Consultation
+1. **Premier Contact**: Appel ou message WhatsApp/téléphone
+2. **Prise de Rendez-vous**: Via Calendly ou discussion directe
+3. **Préparation**: Discussion des besoins et questions
+4. **Séance**: Lecture spirituelle, guidance personnalisée
+5. **Suivi**: Support disponible après consultation
+
+## Valeurs Fondamentales
+- **Authenticité**: Approche sincère et honnête, sans fausses promesses
+- **Confidentialité**: Discrétion absolue garantie
+- **Bienveillance**: Écoute empathique et sans jugement
+- **Professionnalisme**: Service éthique et respectueux
+- **Accessibilité**: Consultations à distance pour tous
+
+## Spécialités et Méthodes
+- Tarot et cartes oracle
+- Intuition et ressentis médiumniques
+- Lecture énergétique
+- Communication avec l'au-delà
+- Guidance spirituelle personnalisée
+- Soins énergétiques
+- Libération de mémoires
+
+## Public Cible et Besoins
+### Qui consulte Maya Medium ?
+- Personnes en quête de guidance spirituelle
+- Individus traversant des moments difficiles (deuil, séparation, transition)
+- Recherche de clarté sur l'avenir (amour, travail, famille)
+- Besoin de connexion avec un proche disparu
+- Besoin de nettoyage ou rééquilibrage énergétique
+- Questionnements existentiels et recherche de sens
+
+### Problématiques Abordées
+- Deuil et perte d'un être cher
+- Questions amoureuses et relationnelles
+- Orientation professionnelle
+- Blocages énergétiques
+- Décisions importantes de vie
+- Santé émotionnelle et bien-être spirituel
+
+## Informations Légales et Éthiques
+- La voyance est un art divinatoire à but informatif
+- Ne remplace pas un avis médical, juridique ou financier professionnel
+- Les consultations sont données de manière éthique et responsable
+- Les résultats et expériences varient selon les individus
+- Approche respectueuse du libre arbitre du consultant
+
+## Identité Visuelle et Communication
+### Palette de Couleurs
+- **Or Principal**: #C9A24D (élégance, spiritualité)
+- **Noir Profond**: #0F0F0F (mystère, professionnalisme)
+- **Crème Doux**: #F4EFEA (douceur, apaisement)
+
+### Typographie
+- **Titres**: Playfair Display (serif, élégant, mystique)
+- **Corps**: Poppins (sans-serif, moderne, lisible)
+
+### Ton de Voix
+- Professionnel mais chaleureux
+- Mystique sans être ésotérique
+- Authentique et rassurant
+- Accessible et empathique
+- Inspirant confiance
+
+## Mots-Clés SEO Locaux et Thématiques
+### Géographiques
+Saint-Romain-de-Colbosc, Le Havre, Fécamp, Seine-Maritime, 76, Normandie, Yvetot, Rouen, Haute-Normandie
+
+### Services
+voyance sérieuse, médium fiable, guidance spirituelle, cartomancie, médiumnité, tarot, consultation voyance, voyante professionnelle, messages défunts, communication défunt, soin énergétique, lecture akashique, voyance à distance, voyance téléphone, voyance whatsapp
+
+### Long-tail
+voyante sérieuse Saint-Romain-de-Colbosc, médium Le Havre, voyance Seine-Maritime, consultation médiumnité Normandie, messages défunts 76, voyance à distance France, guidance spirituelle authentique
+
+## Technologies et Outils
+- **Site Web**: Next.js, React, TypeScript
+- **Design**: Tailwind CSS, design responsive
+- **Réservation**: Calendly
+- **Communication**: WhatsApp, Zoom, téléphone
+- **Réseaux**: Instagram, TikTok, Facebook, Clapper
+
+## Différenciation et Avantages Compétitifs
+- Approche authentique et sans charlatanisme
+- Tarifs transparents
+- Large gamme de services (médiumnité, énergétique, guidance)
+- Consultations possibles à distance (accessibilité nationale)
+- Écoute bienveillante et personnalisée
+- Confidentialité absolue
+- Avis et recommandations positifs
+- Flexibilité des horaires
+- Présence locale forte (Normandie, 76)
+
+## Saisonnalité et Moments Clés
+- Augmentation des consultations: janvier (nouvelles résolutions), automne (introspection)
+- Périodes de deuil: toute l'année
+- Moments de transition: rentrée, fin d'année
+- Événements de vie: rupture, changement professionnel, questionnements existentiels
+
+## Évolution et Vision
+Maya Medium vise à démocratiser l'accès à une voyance sérieuse et éthique, accessible à tous via les consultations à distance, tout en maintenant un ancrage local fort en Normandie. L'objectif est d'accompagner chaque personne avec authenticité vers plus de clarté et de sérénité.
