@@ -9,7 +9,7 @@ export function AboutSection() {
             <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
               <div className="absolute inset-0 bg-gradient-to-br from-[#c9a24d]/20 to-[#d4b960]/20 rounded-full blur-3xl animate-pulse"></div>
               <div className="relative size-full rounded-full overflow-hidden border-4 border-[#c9a24d] shadow-2xl shadow-[#c9a24d]/30">
-                <Image src="/images/maya-logo-round.png" alt="Maya Medium - Stéphanie" fill className="object-cover" />
+                <Image src="/images/maya-logo-round.png" alt="Maya Medium" fill className="object-cover" />
               </div>
             </div>
           </div>
@@ -20,8 +20,7 @@ export function AboutSection() {
             </h2>
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed text-sm sm:text-base font-sans">
               <p>
-                Je m'appelle <span className="font-semibold text-gold">Stéphanie</span>, mais dans le domaine spirituel,
-                on me connaît sous le nom de <span className="font-semibold text-gold">Maya Medium</span>.
+                Je m'appelle <span className="font-semibold text-gold">Maya Medium</span>, médium et voyante passionnée.
               </p>
               <p>
                 Depuis mon plus jeune âge, j'ai développé une sensibilité particulière au monde spirituel. Ce don de
@@ -40,11 +39,11 @@ export function AboutSection() {
             </div>
 
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <a href="tel:0759542626" className="phone-button justify-center">
+              <a href="tel:0759542696" className="phone-button justify-center">
                 Appelez-moi
               </a>
               <a
-                href="https://wa.me/33759542626"
+                href="https://wa.me/33759542696"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whatsapp-button justify-center"

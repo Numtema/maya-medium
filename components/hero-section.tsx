@@ -74,7 +74,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-[#f4efea]/90 mb-4 max-w-3xl mx-auto font-sans leading-relaxed">
-          Bienvenue, je suis Stéphanie, médium et voyante
+          Bienvenue, je suis Maya, médium et voyante
         </p>
         <p className="text-base sm:text-lg text-[#f4efea]/70 mb-10 max-w-3xl mx-auto font-sans leading-relaxed">
           Je vous accompagne avec bienveillance dans votre quête de clarté et de guidance spirituelle. Consultations par
@@ -82,12 +82,12 @@ export function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <a href="tel:+33759542626" className="phone-button text-base sm:text-lg">
+          <a href="tel:+33759542696" className="phone-button text-base sm:text-lg">
             <Phone className="w-5 h-5" />
-            07 59 54 26 26
+            07 59 54 26 96
           </a>
           <a
-            href="https://wa.me/33759542626"
+            href="https://wa.me/33759542696"
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-button text-base sm:text-lg"

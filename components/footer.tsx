@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Phone, Mail, Clock } from "lucide-react"
+import { Phone, Mail, Clock, Instagram, Film } from "lucide-react"
+import { FaTiktok, FaFacebook } from "react-icons/fa"
 
 export function Footer() {
   return (
@@ -15,8 +16,42 @@ export function Footer() {
               <span className="text-xl font-bold text-[#c9a24d] font-serif">Maya Medium</span>
             </div>
             <p className="text-[#f4efea]/80 mb-4 font-sans leading-relaxed">
-              Voyance et guidance spirituelle avec Stéphanie. Accompagnement bienveillant dans la confidentialité.
+              Voyance et guidance spirituelle avec Maya. Accompagnement bienveillant dans la confidentialité.
             </p>
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://instagram.com/amaya.apro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#f4efea]/70 hover:text-[#c9a24d] transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://tiktok.com/@amaya.apro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#f4efea]/70 hover:text-[#c9a24d] transition-colors"
+              >
+                <FaTiktok className="w-5 h-5" />
+              </a>
+              <a
+                href="https://facebook.com/amaya.apro.2024"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#f4efea]/70 hover:text-[#c9a24d] transition-colors"
+              >
+                <FaFacebook className="w-5 h-5" />
+              </a>
+              <a
+                href="https://clapper.app/Maya_medium_99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#f4efea]/70 hover:text-[#c9a24d] transition-colors"
+              >
+                <Film className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           <div>
@@ -57,8 +92,8 @@ export function Footer() {
                 <Phone className="w-5 h-5 text-[#c9a24d] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-[#f4efea]/60 font-sans text-sm">Téléphone</p>
-                  <a href="tel:0759542626" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
-                    07 59 54 26 26
+                  <a href="tel:0759542696" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
+                    07 59 54 26 96
                   </a>
                 </div>
               </li>
@@ -66,8 +101,8 @@ export function Footer() {
                 <Mail className="w-5 h-5 text-[#c9a24d] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-[#f4efea]/60 font-sans text-sm">Email</p>
-                  <a href="mailto:maya.medium@contact.fr" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
-                    maya.medium@contact.fr
+                  <a href="mailto:amaya.pro@outlook.fr" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
+                    amaya.pro@outlook.fr
                   </a>
                 </div>
               </li>

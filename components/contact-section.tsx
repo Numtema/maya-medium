@@ -1,4 +1,5 @@
-import { Phone, MessageCircle, Mail, Clock } from "lucide-react"
+import { Phone, MessageCircle, Mail, Clock, MapPin, Video, Instagram, Film } from "lucide-react"
+import { FaTiktok, FaFacebook } from "react-icons/fa"
 
 export function ContactSection() {
   return (
@@ -24,8 +25,8 @@ export function ContactSection() {
                 <p className="text-sm sm:text-base text-gray-600 mb-1 sm:mb-2 font-sans">
                   Appelez-moi directement pour une consultation
                 </p>
-                <a href="tel:0759542626" className="text-gold font-semibold hover:underline text-sm sm:text-base">
-                  07 59 54 26 26
+                <a href="tel:+33759542696" className="text-gold font-semibold hover:underline text-sm sm:text-base">
+                  07 59 54 26 96
                 </a>
               </div>
             </div>
@@ -40,7 +41,7 @@ export function ContactSection() {
                   Consultations également disponibles sur WhatsApp
                 </p>
                 <a
-                  href="https://wa.me/33759542626"
+                  href="https://wa.me/33759542696"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold font-semibold hover:underline text-sm sm:text-base"
@@ -60,11 +61,26 @@ export function ContactSection() {
                   Pour toute demande d'information
                 </p>
                 <a
-                  href="mailto:maya.medium@contact.fr"
+                  href="mailto:amaya.pro@outlook.fr"
                   className="text-gold font-semibold hover:underline text-sm sm:text-base"
                 >
-                  maya.medium@contact.fr
+                  amaya.pro@outlook.fr
                 </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3 sm:gap-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gold/20 flex items-center justify-center flex-shrink-0">
+                <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
+              </div>
+              <div>
+                <h3 className="font-bold text-lg sm:text-xl mb-1 sm:mb-2 font-serif">Consultations</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-1 font-sans flex items-center gap-2">
+                  <span className="text-gold">•</span> En cabinet : Saint-Romain-de-Colbosc (76)
+                </p>
+                <p className="text-sm sm:text-base text-gray-600 font-sans flex items-center gap-2">
+                  <Video className="w-4 h-4 text-gold" />À distance : WhatsApp ou Zoom
+                </p>
               </div>
             </div>
 
@@ -76,6 +92,53 @@ export function ContactSection() {
                 <h3 className="font-bold text-lg sm:text-xl mb-1 sm:mb-2 font-serif">Disponibilités</h3>
                 <p className="text-sm sm:text-base text-gray-600 font-sans">Lundi au Samedi : 9h - 20h</p>
                 <p className="text-sm sm:text-base text-gray-600 font-sans">Dimanche : Sur rendez-vous</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3 sm:gap-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gold/20 flex items-center justify-center flex-shrink-0">
+                <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
+              </div>
+              <div>
+                <h3 className="font-bold text-lg sm:text-xl mb-1 sm:mb-2 font-serif">Suivez-moi</h3>
+                <div className="flex flex-wrap gap-3 mt-2">
+                  <a
+                    href="https://instagram.com/amaya.apro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-gray-600 hover:text-gold transition-colors"
+                  >
+                    <Instagram className="w-4 h-4" />
+                    Instagram
+                  </a>
+                  <a
+                    href="https://tiktok.com/@amaya.apro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-gray-600 hover:text-gold transition-colors"
+                  >
+                    <FaTiktok className="w-4 h-4" />
+                    TikTok
+                  </a>
+                  <a
+                    href="https://facebook.com/amaya.apro.2024"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-gray-600 hover:text-gold transition-colors"
+                  >
+                    <FaFacebook className="w-4 h-4" />
+                    Facebook
+                  </a>
+                  <a
+                    href="https://clapper.app/Maya_medium_99"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-gray-600 hover:text-gold transition-colors"
+                  >
+                    <Film className="w-4 h-4" />
+                    Clapper
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -105,12 +168,12 @@ export function ContactSection() {
             </div>
 
             <div className="flex flex-col gap-3">
-              <a href="tel:0759542626" className="phone-button w-full justify-center text-sm sm:text-base">
+              <a href="tel:+33759542696" className="phone-button w-full justify-center text-sm sm:text-base">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                 Appeler maintenant
               </a>
               <a
-                href="https://wa.me/33759542626"
+                href="https://wa.me/33759542696"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whatsapp-button w-full justify-center text-sm sm:text-base"
