@@ -12,7 +12,7 @@ export default function PolitiqueConfidentialitePage() {
     <div className="min-h-screen bg-cream">
       <Navbar />
       <main className="container mx-auto px-4 py-20 max-w-4xl">
-        <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 border border-gold/20">
+        <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 border border-gold/20 text-secondary">
           <div className="flex items-center gap-3 mb-8">
             <Shield className="w-8 h-8 text-gold" />
             <h1 className="text-4xl font-serif text-dark font-bold">Politique de Confidentialité</h1>
