@@ -85,10 +85,10 @@ export function Navbar() {
                 href="https://calendly.com/amaya-pro"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden md:flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-blue-600 border border-blue-700 text-white font-semibold text-xs sm:text-sm hover:bg-blue-700 transition-all font-sans"
+                className="flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-blue-600 border border-blue-700 text-white font-semibold text-xs sm:text-sm hover:bg-blue-700 transition-all font-sans"
               >
                 <Calendar className="w-4 h-4" />
-                <span className="hidden xl:inline">Calendly</span>
+                <span className="hidden sm:inline">Calendly</span>
               </a>
 
               <a
@@ -106,7 +106,7 @@ export function Navbar() {
                 className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#c9a24d] to-[#d4b960] text-[#0f0f0f] font-bold text-xs sm:text-sm btn-glow font-sans"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>WhatsApp</span>
+                <span className="hidden sm:inline">WhatsApp</span>
               </a>
             </div>
 
@@ -157,10 +157,19 @@ export function Navbar() {
             FAQ
           </Link>
           <a
+            href="https://calendly.com/amaya-pro"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-8 py-4 rounded-full bg-blue-600 text-white font-bold text-lg mt-4"
+          >
+            <Calendar className="w-5 h-5" />
+            <span>Calendly</span>
+          </a>
+          <a
             href="https://wa.me/33759542696"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#c9a24d] to-[#d4b960] text-[#0f0f0f] font-bold text-lg btn-glow mt-4"
+            className="flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#c9a24d] to-[#d4b960] text-[#0f0f0f] font-bold text-lg btn-glow"
           >
             <MessageCircle className="w-5 h-5" />
             <span>WhatsApp</span>
