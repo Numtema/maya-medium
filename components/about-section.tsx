@@ -23,14 +23,14 @@ export function AboutSection() {
                 Je m'appelle <span className="font-semibold text-gold">Maya Medium</span>, médium et voyante passionnée.
               </p>
               <p>
-                Depuis mon plus jeune âge, j'ai développé une sensibilité particulière au monde spirituel. Ce don de
-                médiumnité et de voyance, je l'ai cultivé et approfondi au fil des années pour vous offrir aujourd'hui
-                un accompagnement authentique et bienveillant.
+                Depuis mon plus jeune âge, j'ai développé une sensibilité particulière au monde spirituel. Cette
+                capacité de médiumnité et de voyance, je l'ai cultivée et approfondie au fil des années pour vous offrir
+                aujourd'hui un accompagnement authentique et bienveillant.
               </p>
               <p>
                 Ma mission est simple : vous apporter clarté, réconfort et guidance dans les moments où vous en avez le
                 plus besoin. Que ce soit pour des questions d'amour, de travail, de famille, ou pour un message d'un
-                être cher disparu, je mets mon don à votre service avec respect et confidentialité.
+                être cher disparu, je mets ma capacité à votre service avec respect et confidentialité.
               </p>
               <p className="font-semibold italic text-gold">
                 "La voyance n'est pas seulement prédire l'avenir, c'est éclairer le présent pour mieux construire
@@ -39,7 +39,7 @@ export function AboutSection() {
             </div>
 
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <a href="tel:0759542696" className="phone-button justify-center">
+              <a href="tel:+33759542696" className="phone-button justify-center">
                 Appelez-moi
               </a>
               <a

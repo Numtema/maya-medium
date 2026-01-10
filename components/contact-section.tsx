@@ -26,7 +26,7 @@ export function ContactSection() {
                   Appelez-moi directement pour une consultation
                 </p>
                 <a href="tel:+33759542696" className="text-gold font-semibold hover:underline text-sm sm:text-base">
-                  07 59 54 26 96
+                  +33 7 59 54 26 96
                 </a>
               </div>
             </div>
@@ -90,8 +90,8 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="font-bold text-lg sm:text-xl mb-1 sm:mb-2 font-serif">Disponibilités</h3>
-                <p className="text-sm sm:text-base text-gray-600 font-sans">Lundi au Samedi : 9h - 20h</p>
-                <p className="text-sm sm:text-base text-gray-600 font-sans">Dimanche : Sur rendez-vous</p>
+                <p className="text-sm sm:text-base text-gray-600 font-sans">Lundi au Vendredi</p>
+                <p className="text-sm sm:text-base text-gray-600 font-sans">Horaires en détail sur Calendly</p>
               </div>
             </div>
 

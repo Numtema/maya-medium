@@ -84,7 +84,7 @@ export function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <a href="tel:+33759542696" className="phone-button text-base sm:text-lg">
             <Phone className="w-5 h-5" />
-            07 59 54 26 96
+            +33 7 59 54 26 96
           </a>
           <a
             href="https://wa.me/33759542696"

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X, Phone, MessageCircle } from "lucide-react"
+import { Menu, X, Phone, MessageCircle, Calendar } from "lucide-react"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -82,7 +82,17 @@ export function Navbar() {
             {/* CTA Buttons */}
             <div className="flex items-center gap-2 sm:gap-3 border-l border-[#c9a24d]/20 pl-3 sm:pl-6">
               <a
-                href="tel:+33759542626"
+                href="https://calendly.com/amaya-pro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden md:flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-blue-600 border border-blue-700 text-white font-semibold text-xs sm:text-sm hover:bg-blue-700 transition-all font-sans"
+              >
+                <Calendar className="w-4 h-4" />
+                <span className="hidden xl:inline">Calendly</span>
+              </a>
+
+              <a
+                href="tel:+33759542696"
                 className="hidden md:flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-[#c9a24d]/10 border border-[#c9a24d]/30 text-[#c9a24d] font-semibold text-xs sm:text-sm hover:bg-[#c9a24d]/20 transition-all font-sans"
               >
                 <Phone className="w-4 h-4" />
@@ -90,7 +100,7 @@ export function Navbar() {
               </a>
 
               <a
-                href="https://wa.me/33759542626"
+                href="https://wa.me/33759542696"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#c9a24d] to-[#d4b960] text-[#0f0f0f] font-bold text-xs sm:text-sm btn-glow font-sans"
@@ -147,7 +157,7 @@ export function Navbar() {
             FAQ
           </Link>
           <a
-            href="https://wa.me/33759542626"
+            href="https://wa.me/33759542696"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#c9a24d] to-[#d4b960] text-[#0f0f0f] font-bold text-lg btn-glow mt-4"

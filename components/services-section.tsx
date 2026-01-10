@@ -1,14 +1,14 @@
 "use client"
 
 import Image from "next/image"
-import { Sparkles, Moon, Eye, Hand, Flame, BookOpen, Footprints, Users } from "lucide-react"
+import { Sparkles, Moon, Eye, Hand, Flame, BookOpen, Footprints, Users, Home, Wind } from "lucide-react"
 
 export function ServicesSection() {
   const categories = [
     {
       id: "mediumnique",
       title: "Médiumnique",
-      subtitle: "Orientation guidance, liens, lecture subtile",
+      subtitle: "Orientation, guidance, liens, lecture subtile",
       services: [
         {
           title: "Messages des Défunts",
@@ -50,7 +50,8 @@ export function ServicesSection() {
           image: "/images/conference-pro.jpg",
           duration: "210 minutes (3h30)",
           location: "En personne - Groupe",
-          description: "Événement en groupe pour découvrir la médiumnité et recevoir des messages collectifs.",
+          description:
+            "Événement en groupe pour découvrir la médiumnité et recevoir des messages collectifs. Chaque personne peut choisir entre contact défunt, cartomancie, lecture akashique ou numérologie.",
         },
       ],
     },
@@ -69,19 +70,27 @@ export function ServicesSection() {
         },
         {
           title: "Dégagement Énergétique",
-          icon: Sparkles,
+          icon: Wind,
           image: "/images/degagement-energetique-pro.jpg",
           duration: "60 minutes",
           location: "Plusieurs lieux / en privé",
-          description: "Nettoyage énergétique profond pour libérer les blocages et retrouver votre vitalité.",
+          description: "Dégagement profond pour libérer les blocages et retrouver la vitalité.",
+        },
+        {
+          title: "Nettoyage Énergétique de Lieu",
+          icon: Home,
+          image: "/images/nettoyage-lieu-pro.jpg",
+          duration: "60 minutes",
+          location: "À domicile (76)",
+          description: "Purification de votre habitat pour retrouver sérénité et harmonie dans votre espace de vie.",
         },
         {
           title: "Lectures et Libérations",
           icon: BookOpen,
           image: "/images/lectures-liberations-pro.jpg",
-          duration: "90 minutes",
+          duration: "60 minutes",
           location: "Plusieurs lieux",
-          description: "Séance approfondie combinant lecture énergétique et libération des mémoires limitantes.",
+          description: "Séance combinant lecture énergétique et libération des mémoires limitantes.",
         },
       ],
     },
@@ -121,7 +130,8 @@ export function ServicesSection() {
           image: "/images/communication-animale-pro.jpg",
           duration: "15 minutes",
           location: "Plusieurs lieux",
-          description: "Je communique avec vos animaux de compagnie pour comprendre leurs besoins et leurs messages.",
+          description:
+            "Je communique avec vos animaux de compagnie (défunts ou vivants) pour comprendre leurs besoins et leurs messages.",
         },
       ],
     },
@@ -161,8 +171,13 @@ export function ServicesSection() {
             <h3 className="text-2xl font-bold text-[#c9a24d] font-serif mb-4">Modalités Générales</h3>
             <div className="space-y-2 text-[#0f0f0f]">
               <p className="text-sm">Durées variables selon la prestation (15 à 210 min)</p>
-              <p className="text-sm">En cabinet (Saint-Romain-de-Colbosc – 76) ou à distance (visio WhatsApp / Zoom)</p>
-              <p className="text-sm">En semaine – horaires variables</p>
+              <p className="text-sm">
+                En cabinet (Saint-Romain-de-Colbosc – 76), à votre domicile (76) ou à distance (visio WhatsApp / Zoom)
+              </p>
+              <p className="text-sm">
+                À distance ou à l'étranger : merci d'indiquer votre indicatif pays lors de la réservation
+              </p>
+              <p className="text-sm">Lundi au Vendredi – horaires en détail sur Calendly</p>
             </div>
           </div>
         </div>

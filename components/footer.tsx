@@ -92,8 +92,8 @@ export function Footer() {
                 <Phone className="w-5 h-5 text-[#c9a24d] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-[#f4efea]/60 font-sans text-sm">Téléphone</p>
-                  <a href="tel:0759542696" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
-                    07 59 54 26 96
+                  <a href="tel:+33759542696" className="text-[#f4efea] hover:text-[#c9a24d] font-sans">
+                    +33 7 59 54 26 96
                   </a>
                 </div>
               </li>
@@ -110,7 +110,7 @@ export function Footer() {
                 <Clock className="w-5 h-5 text-[#c9a24d] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-[#f4efea]/60 font-sans text-sm">Horaires</p>
-                  <p className="text-[#f4efea] font-sans text-sm">Lun-Sam : 9h-20h</p>
+                  <p className="text-[#f4efea] font-sans text-sm">Lun-Ven : Voir Calendly</p>
                 </div>
               </li>
             </ul>

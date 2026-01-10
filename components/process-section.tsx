@@ -3,7 +3,7 @@ export function ProcessSection() {
     {
       number: "01",
       title: "Contactez-moi",
-      description: "Par téléphone au 07 59 54 26 26 ou via WhatsApp. Je suis à votre écoute.",
+      description: "Par téléphone au +33 7 59 54 26 96 ou via WhatsApp. Je suis à votre écoute.",
     },
     {
       number: "02",
